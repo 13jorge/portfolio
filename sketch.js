@@ -20,7 +20,7 @@ function draw() {
   text('Press Mouse',170,30);
   noStroke();
   fill(204, 0, 0);
-  text('Press C to Clrear',150,70);
+  text('Press C to Clear',150,70);
   // background(232,24,10,10);
   strokeWeight(strokeWidth);
 
