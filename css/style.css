@@ -6,6 +6,53 @@ body {
   padding: 30px 20px;
   text-align: center;
   background-color: black;
+
+}
+
+header .header-home{
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 900;
+  color:#a8a8a8;
+  text-transform: uppercase;
+  display: block;
+    margin: 31px 0;
+    text-align: left;
+        border-right: 3px solid #383737;
+    padding: 0 10px 10px 10px;
+      line-height: 38px;
+          float: left;
+}
+
+
+header nav ul{
+  display: block;
+  margin: 20px 0px 0px 20px;
+width: fit-content;
+  float: left;
+}
+
+header nav ul li{
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0px 16px;
+}
+
+header nav ul li a{
+  font-family: arial;
+  font-size: 16px;
+  color: #383737;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover, a:active {
+  /* background-color:  #383737; */
+  color: red;
 }
 
 h1 {
@@ -23,7 +70,7 @@ h4{
 /* a{
   font-size: 30px;
 } */
-a:link, a:visited {
+/* a:link, a:visited {
   background-color: black;
   color: red;
   border: 2px solid red;
@@ -37,7 +84,7 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: rgb(179, 0, 0, 100);
   color: black;
-}
+} */
 /* Centers images */
 
 img {
@@ -50,7 +97,7 @@ creating a new class. We can apply this to div elements to create different
 portfolio entries */
 
 .portfolio-item {
-margin-top: 60px;
+margin-top: 100px;
 padding: 40px;
 background-color: #f7f7f7;
 color: black;
@@ -61,7 +108,7 @@ font-size: 30px;
   .jorge {
     color: white;
     font-size: 100px;
-    text-transform: upercase;
+    /* text-transform: upercase; */
     position: relative;
     display: block;
   }
