@@ -5,12 +5,12 @@ body {
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
-  background-color: black;
+  background-color:  #14141F;
 
 }
 
 header{
-  background-color: #111;
+  background-color:  #14141F;
   width: 100%;
   height: 100%;
 }
@@ -136,7 +136,7 @@ font-size: 30px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
+  background: #14141F;
 }
 .jorge::before {
   left: 2px;
